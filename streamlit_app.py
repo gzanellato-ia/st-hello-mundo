@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 dfPlot = pd.read_csv('20240402_022821_YPF.Nq.LACh-465(h).csv', skiprows=[1])
 st.write(dfPlot.head(4))
 
+
 # Plotting
 fig, ax1 = plt.subplots(figsize=(10, 5))
 ax2 = ax1.twinx()
@@ -37,3 +38,4 @@ plt.grid(linestyle = '--', linewidth = 0.4)
 
 #plt.savefig("Curva_ROP_GR.png")
 st.pyplot(fig)
+
