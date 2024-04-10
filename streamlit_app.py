@@ -2,6 +2,7 @@ import streamlit as st
 
 st.write('Hello mundo!')
 
+import numpy as np
 import pandas as pd
 #from io import StringIO
 import matplotlib.pyplot as plt
