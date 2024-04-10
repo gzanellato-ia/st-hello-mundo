@@ -10,6 +10,10 @@ import matplotlib.pyplot as plt
 dfPlot = pd.read_csv('20240402_022821_YPF.Nq.LACh-465(h).csv', skiprows=[1])
 st.write(dfPlot.head(4))
 
+DepthIn = 2624
+DepthOut = 2651
+dfPlot = df1[(df1['DEPTH']>DepthIn) & (df1['DEPTH']<DepthOut)]
+
 # Plotting -----------------------------------------------------------------
 fig, ax1 = plt.subplots(figsize=(10, 5))
 ax2 = ax1.twinx()
