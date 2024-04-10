@@ -8,7 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 df1 = pd.read_csv('20240402_022821_YPF.Nq.LACh-465(h).csv', skiprows=[1])
-st.write(dfPlot.head(4))
+st.write(df1.head(4))
 
 DepthIn = 2624
 DepthOut = 2651
