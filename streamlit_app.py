@@ -19,6 +19,7 @@ ax1.plot(dfPlot['DEPTH'], dfPlot['ROP'], c='red', label='ROP', linewidth = 0.8)
 ax2.plot(dfPlot['DEPTH'], dfPlot['GRCX'], c='green', label='GR', linewidth = 0.8)
 
 #plt.xlim(5000, 5100)
+ax1.set_xlim(2500, 2900)
 ax1.set_ylim(0, 50)
 ax2.set_ylim(0, 180)
 ax1.legend(loc="lower left")
